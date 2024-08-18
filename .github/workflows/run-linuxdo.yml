@@ -29,7 +29,7 @@ jobs:
       env:
         TZ: Asia/Shanghai  # 设置时区为中国时区
         LINUXDO_USERNAME: ${{ secrets.LINUXDO_USERNAME }}
-        LINUXDO_PASSWORD: ${{ secrets.LINUXDO_PASSWORD }}
+        LINUXDO_PASSWORD: ${{ secrets.PASSWORD }}
         LIKE_PROBABILITY: ${{ secrets.LIKE_PROBABILITY }}
         REPLY_PROBABILITY: ${{ secrets.REPLY_PROBABILITY }}
         COLLECT_PROBABILITY: ${{ secrets.COLLECT_PROBABILITY }}
